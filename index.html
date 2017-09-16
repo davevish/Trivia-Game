@@ -1,67 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang ="en">
 <head>
 	<meta charset="utf-8">
-	<title>Triva Game</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Travel Trivia Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
 </head>
-
 <body>
 	<div class="jumbotron">
-		<h1>The Formula One Trivia Game!</h1>
-		<p>Time Remaining:</p>
-		<div id="show-number"></div>
-	</div>
-
-	<div class="question">
-		<p>Question 1</p>
-		<p>Formula One engines need to be "boiled" in oil before they can be started.</p>
-		<div class="btn-group" role="group">
-			<button type="button" class="btn btn-default">True</button>
-			<button type="button" class="btn btn-default">False</button>
+		<div class="container">
+			<div class="row">
+				<h1 class="text-center">Faster Than A F1 Driver?</h1>
+				<div class="mainSection col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="question">
-		<p>Question 2</p>
-		<p>The engines rev to 18,000 rpm's.</p>
-		<div class="btn-group" role="group">
-			<button type="button" class="btn btn-default">True</button>
-			<button type="button" class="btn btn-default">False</button>
-		</div>
-	</div>
-	<div class="question">
-		<p>Question 3</p>
-		<p>Each car is worth $32,000,000. Making the race of 20 cars worth $640,000,000!</p>
-		<div class="btn-group" role="group">
-			<button type="button" class="btn btn-default">True</button>
-			<button type="button" class="btn btn-default">False</button>
-		</div>
-	</div>
-	<div class="question">
-		<p>Question 4</p>
-		<p>Drivers can experience up to 5G's, more than what astronauts experience during take off!</p>
-		<div class="btn-group" role="group">
-			<button type="button" class="btn btn-default">True</button>
-			<button type="button" class="btn btn-default">False</button>
-		</div>
-	</div>
-	<div class="question">
-		<p>Question 5</p>
-		<p>The youngest driver is only 18 years old, he doesn't even have his regular drivers license yet.</p>
-		<div class="btn-group" role="group">
-			<button type="button" class="btn btn-default">True</button>
-			<button type="button" class="btn btn-default">False</button>
-		</div>
-	</div>
-	<div id="stopbutton">
-		<button id="stop">SUBMIT</button>
-	</div>
-	<br>
-	<br>
-	<br>
-
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/apps.js"></script>
+	<div class="container"></div>
+	<script src="apps.js"></script>
 </body>
 </html>
